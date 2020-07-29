@@ -2,8 +2,8 @@ language: node_js
 node_js: 
   - "stable"
 env:
-    - HOST=localhost
-    - PORT=8000    
+  global:        
+    - HOST=localhost PORT=8000    
 cache:
   directories:
     - "node_modules"
