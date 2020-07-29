@@ -12,7 +12,6 @@ const server = http.createServer((req, res) => {
     res.end(`{"message": "Hello CI!"}`);
 });
 
-
 server.listen(port, host, () => {
     console.log(`Server running at http://${host}:${port}/`)
 })
